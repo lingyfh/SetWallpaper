@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/desc_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/set_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="设置单屏壁纸"/>
+
+    <Button
+        android:id="@+id/set_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="设置滚屏壁纸"/>
+</LinearLayout>
+
